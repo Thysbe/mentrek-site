@@ -43,7 +43,7 @@ export default function Home() {
             <br></br>
             Over the course of 2024, the Mentrek project started to take shape:
             a set of stripped down, club-ready tracks taking influences from
-            techno, broken-beat, and deconstructed music.
+            techno, broken-beat, and deconstructed club music.
           </p>
         </section>
 
@@ -57,6 +57,7 @@ export default function Home() {
             <li className="text-gray-600">Darkhurst</li>
             <li className="text-gray-600">Deadscrolls</li>
             <li className="text-gray-600">Dendroid</li>
+            <li className="text-gray-600">Wytai</li>
           </ul>
         </section>
       </main>
