@@ -2,9 +2,9 @@ import { FaSoundcloud, FaInstagram, FaBandcamp } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-1 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 gap-0 font-[family-name:var(--font-geist-sans)]">
       {/* Header */}
-      <header className="w-full flex justify-center items-center relative text-2xl font-bold p-3 font-mono">
+      <header className="w-full flex justify-center items-center relative text-2xl font-bold p-1 font-mono">
         mentrek.studio
         <a
           href="mailto:mentrek.studio@gmail.com"
@@ -15,7 +15,7 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="flex flex-col gap-1 row-start-2 items-center sm:items-start w-full max-w-4xl">
+      <main className="flex flex-col gap-0 row-start-2 items-center sm:items-start w-full max-w-4xl">
         {/* Hero Image */}
         <div className="w-full p-4">
           <img
