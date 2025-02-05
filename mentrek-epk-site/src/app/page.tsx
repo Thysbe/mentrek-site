@@ -1,9 +1,17 @@
+import { FaSoundcloud, FaInstagram, FaBandcamp } from "react-icons/fa";
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-1 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       {/* Header */}
-      <header className="w-full text-center text-2xl font-bold p-3 font-mono">
+      <header className="w-full flex justify-center items-center relative text-2xl font-bold p-3 font-mono">
         mentrek.studio
+        <a
+          href="mailto:mentrek.studio@gmail.com"
+          className="absolute right-4 text-sm font-normal hover:underline"
+        >
+          Contact
+        </a>
       </header>
 
       {/* Main Content */}
@@ -65,6 +73,29 @@ export default function Home() {
       {/* Footer */}
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center w-full p-4 font-mono">
         <p>&copy; 2025 mentrek.studio</p>
+        <div className="flex gap-4">
+          <a
+            href="https://soundcloud.com/mentrek_studio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaSoundcloud className="text-xl hover:text-orange-500 transition-colors" />
+          </a>
+          <a
+            href="https://instagram.com/mentrek_studio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="text-xl hover:text-pink-500 transition-colors" />
+          </a>
+          <a
+            href="https://mentrek.bandcamp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaBandcamp className="text-xl hover:text-blue-500 transition-colors" />
+          </a>
+        </div>
       </footer>
     </div>
   );
