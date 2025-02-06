@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
+  --background: #000000;
   --foreground: #ededed;
 }
 
@@ -14,8 +14,24 @@
   }
 }
 
+@font-face {
+  font-family: "typewriter";
+  src: url("/fonts/mom.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-family: "typewriter" !important;
+}
+
+a {
+  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

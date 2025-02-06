@@ -39,7 +39,7 @@ export default function Home() {
 
         {/* Artist Intro */}
         <section className="w-full text-justified p-4 font-mono">
-          <h2 className="text-xl font-semibold">About the Project</h2>
+          <header className="text-xl font-semibold">About the Project</header>
           <p className="text-gray-600">
             Mentrek evolved as a collaborative effort between the Hyper-Glitch
             aficianado Nuan Sonar and Thysbe. Starting in 2023, the duo met for
@@ -56,8 +56,8 @@ export default function Home() {
         </section>
 
         {/* Collaborators */}
-        <section className="w-full text-center p-4 font-mono">
-          <h2 className="text-xl font-semibold">Collaborators</h2>
+        <section className="w-full text-justified p-4 font-mono">
+          <header className="text-xl font-semibold">Collaborators</header>
           <ul className="list-none p-0 font-mono">
             <li className="text-gray-600">Sam Link</li>
             <li className="text-gray-600">Relativity Lounge</li>
