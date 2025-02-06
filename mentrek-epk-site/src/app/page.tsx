@@ -58,16 +58,7 @@ export default function Home() {
         {/* Collaborators */}
         <section className="w-full text-justified p-4 font-mono">
           <header className="text-xl font-semibold">Collaborators</header>
-          <ul className="list-none p-0 font-mono">
-            <li className="text-gray-600">Sam Link</li>
-            <li className="text-gray-600">Relativity Lounge</li>
-            <li className="text-gray-600">Chicon</li>
-            <li className="text-gray-600">Metaprose</li>
-            <li className="text-gray-600">Darkhurst</li>
-            <li className="text-gray-600">Deadscrolls</li>
-            <li className="text-gray-600">Dendroid</li>
-            <li className="text-gray-600">Wytai</li>
-          </ul>
+          <CollaboratorLinks />
         </section>
       </main>
 
@@ -101,3 +92,36 @@ export default function Home() {
     </div>
   );
 }
+
+const CollaboratorLinks = () => {
+  var artists = [
+    { name: "Sam Link", link: "https://soundcloud.com/sambot" },
+    {
+      name: "Relativity Lounge",
+      link: "https://soundcloud.com/relativitylounge",
+    },
+    { name: "Chicon", link: "https://soundcloud.com/austinchicon" },
+    { name: "Metaprose", link: "https://soundcloud.com/metaprose" },
+    { name: "Darkhurst", link: "https://soundcloud.com/darkhurst" },
+    { name: "Deadscrolls", link: "https://soundcloud.com/deadscrolls" },
+    { name: "Dendroid", link: "https://soundcloud.com/dendroid_music" },
+    { name: "Wytai", link: "https://www.instagram.com/wytai.art/" },
+  ];
+
+  return (
+    <ul className="list-none p-0 font-mono">
+      {artists.map((artist, index) => (
+        <li key={index}>
+          <a
+            href={artist.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800"
+          >
+            {artist.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+};
