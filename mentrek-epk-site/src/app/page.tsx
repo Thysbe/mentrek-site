@@ -95,23 +95,67 @@ export default function Home() {
 
 const CollaboratorLinks = () => {
   var artists = [
-    { name: "Sam Link", link: "https://soundcloud.com/sambot" },
+    {
+      name: "Sam Link",
+      link: "https://soundcloud.com/sambot",
+      image:
+        "https://i1.sndcdn.com/avatars-9cRFnyBBhAmNTiwE-LjoMXg-t200x200.jpg",
+    },
     {
       name: "Relativity Lounge",
       link: "https://soundcloud.com/relativitylounge",
+      image:
+        "https://i1.sndcdn.com/avatars-zWzQRiIUq16zNyJy-5ieW2Q-t200x200.jpg",
     },
-    { name: "Chicon", link: "https://soundcloud.com/austinchicon" },
-    { name: "Metaprose", link: "https://soundcloud.com/metaprose" },
-    { name: "Darkhurst", link: "https://soundcloud.com/darkhurst" },
-    { name: "Deadscrolls", link: "https://soundcloud.com/deadscrolls" },
-    { name: "Dendroid", link: "https://soundcloud.com/dendroid_music" },
-    { name: "Wytai", link: "https://www.instagram.com/wytai.art/" },
+    {
+      name: "Chicon",
+      link: "https://soundcloud.com/austinchicon",
+      image:
+        "https://i1.sndcdn.com/avatars-WqYEJuXYlWyk7Efv-PETuAA-t200x200.jpg",
+    },
+    {
+      name: "Metaprose",
+      link: "https://soundcloud.com/metaprose",
+      image:
+        "https://i1.sndcdn.com/avatars-SJw37RtLQABbWViy-By7Giw-t200x200.jpg",
+    },
+    {
+      name: "Darkhurst",
+      link: "https://soundcloud.com/darkhurst",
+      image:
+        "https://i1.sndcdn.com/avatars-alibXotWmy9FDwBU-nJTIEg-t200x200.jpg",
+    },
+    {
+      name: "Deadscrolls",
+      link: "https://soundcloud.com/deadscrolls",
+      image:
+        "https://i1.sndcdn.com/avatars-MyMNyzzG9pWolTJ2-6zsjHw-t200x200.jpg",
+    },
+    {
+      name: "Dendroid",
+      link: "https://soundcloud.com/dendroid_music",
+      image:
+        "https://i1.sndcdn.com/avatars-bOLZ3zlsnFy3SdQp-VRvgCw-t200x200.jpg",
+    },
+    {
+      name: "Wytai",
+      link: "https://www.instagram.com/wytai.art/",
+      image:
+        "https://i1.sndcdn.com/avatars-tqqnzfg3j4gBvjto-dc6sSg-t200x200.jpg",
+    },
   ];
 
   return (
     <ul className="list-none p-0 font-mono">
       {artists.map((artist, index) => (
-        <li key={index}>
+        <li key={index} className="flex items-center space-x-4 p-2">
+          {" "}
+          {/* Flex for image + text alignment */}
+          <img
+            src={artist.image}
+            alt={artist.name}
+            className="w-14 h-14 rounded-full object-cover" // Adjust size & styling
+          />
           <a
             href={artist.link}
             target="_blank"
