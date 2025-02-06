@@ -33,7 +33,7 @@ export default function Home() {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/thysbe-official/helionomadic-mix&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1832719125&color=%23080404&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           ></iframe>
         </div>
 
