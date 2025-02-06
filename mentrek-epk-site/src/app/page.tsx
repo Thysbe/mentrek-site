@@ -82,7 +82,7 @@ export default function Home() {
             <FaSoundcloud className="text-xl hover:text-orange-500 transition-colors" />
           </a>
           <a
-            href="https://instagram.com/mentrek_studio"
+            href="https://instagram.com/mentrek.studio"
             target="_blank"
             rel="noopener noreferrer"
           >
