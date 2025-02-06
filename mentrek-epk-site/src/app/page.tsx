@@ -62,6 +62,7 @@ export default function Home() {
             <li className="text-gray-600">Sam Link</li>
             <li className="text-gray-600">Relativity Lounge</li>
             <li className="text-gray-600">Chicon</li>
+            <li className="text-gray-600">Metaprose</li>
             <li className="text-gray-600">Darkhurst</li>
             <li className="text-gray-600">Deadscrolls</li>
             <li className="text-gray-600">Dendroid</li>
