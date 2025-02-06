@@ -94,7 +94,7 @@ export default function Home() {
 }
 
 const CollaboratorLinks = () => {
-  var artists = [
+  const artists = [
     {
       name: "Deadscrolls",
       link: "https://soundcloud.com/deadscrolls",
