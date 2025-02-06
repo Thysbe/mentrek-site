@@ -146,12 +146,9 @@ const CollaboratorLinks = () => {
   ];
 
   return (
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 font-mono items-center">
+    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 font-mono">
       {artists.map((artist, index) => (
-        <li
-          key={index}
-          className="flex items-center space-x-4 p-2 w-full justify-center"
-        >
+        <li key={index} className="flex items-center space-x-4 p-2 w-full">
           <img
             src={artist.image}
             alt={artist.name}
