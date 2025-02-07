@@ -26,10 +26,7 @@ export default function Home() {
         </div>
 
         {/* SoundCloud Embed */}
-        <div className="w-full">
-          {/* <SoundcloudEmbed /> */}
-          coming soon...
-        </div>
+        <div className="w-full">{/* <SoundcloudEmbed /> */}</div>
 
         {/* Artist Intro */}
         <section className="w-full text-justified p-4 font-mono">
