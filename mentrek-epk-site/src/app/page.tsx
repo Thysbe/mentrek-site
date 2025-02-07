@@ -162,51 +162,51 @@ const CollaboratorLinks = () => {
   );
 };
 
-const SoundcloudEmbed = () => {
-  return (
-    <div>
-      <iframe
-        width="100%"
-        height="300"
-        scrolling="no"
-        frameBorder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2028667856%3Fsecret_token%3Ds-LHhgz2MVvUs&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-      ></iframe>
-      <div
-        style={{
-          fontSize: "10px",
-          color: "#cccccc",
-          lineBreak: "anywhere",
-          wordBreak: "normal",
-          overflow: "hidden",
-          whiteSpace: "nowrap",
-          textOverflow: "ellipsis",
-          fontFamily:
-            "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
-          fontWeight: 100,
-        }}
-      >
-        <a
-          href="https://soundcloud.com/mentrek_studio"
-          title="mentrek"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#cccccc", textDecoration: "none" }}
-        >
-          mentrek
-        </a>{" "}
-        ·{" "}
-        <a
-          href="https://soundcloud.com/mentrek_studio/chapter-1/s-LHhgz2MVvUs"
-          title="chapter 1"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#cccccc", textDecoration: "none" }}
-        >
-          chapter 1
-        </a>
-      </div>
-    </div>
-  );
-};
+// const SoundcloudEmbed = () => {
+//   return (
+//     <div>
+//       <iframe
+//         width="100%"
+//         height="300"
+//         scrolling="no"
+//         frameBorder="no"
+//         allow="autoplay"
+//         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2028667856%3Fsecret_token%3Ds-LHhgz2MVvUs&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+//       ></iframe>
+//       <div
+//         style={{
+//           fontSize: "10px",
+//           color: "#cccccc",
+//           lineBreak: "anywhere",
+//           wordBreak: "normal",
+//           overflow: "hidden",
+//           whiteSpace: "nowrap",
+//           textOverflow: "ellipsis",
+//           fontFamily:
+//             "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
+//           fontWeight: 100,
+//         }}
+//       >
+//         <a
+//           href="https://soundcloud.com/mentrek_studio"
+//           title="mentrek"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           style={{ color: "#cccccc", textDecoration: "none" }}
+//         >
+//           mentrek
+//         </a>{" "}
+//         ·{" "}
+//         <a
+//           href="https://soundcloud.com/mentrek_studio/chapter-1/s-LHhgz2MVvUs"
+//           title="chapter 1"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           style={{ color: "#cccccc", textDecoration: "none" }}
+//         >
+//           chapter 1
+//         </a>
+//       </div>
+//     </div>
+//   );
+// };
