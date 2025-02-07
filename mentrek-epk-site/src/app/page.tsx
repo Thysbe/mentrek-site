@@ -27,7 +27,8 @@ export default function Home() {
 
         {/* SoundCloud Embed */}
         <div className="w-full">
-          <SoundcloudEmbed />
+          {/* <SoundcloudEmbed /> */}
+          coming soon...
         </div>
 
         {/* Artist Intro */}
