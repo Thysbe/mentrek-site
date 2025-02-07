@@ -1,4 +1,9 @@
-import { FaSoundcloud, FaInstagram, FaBandcamp } from "react-icons/fa";
+import {
+  FaSoundcloud,
+  FaInstagram,
+  FaBandcamp,
+  FaFacebook,
+} from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -77,6 +82,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <FaBandcamp className="text-xl hover:text-blue-500 transition-colors" />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61572547575293"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="text-xl hover:text-blue-500 transition-colors" />
           </a>
         </div>
       </footer>
