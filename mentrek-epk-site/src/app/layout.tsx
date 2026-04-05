@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "mentrek.studio",
-  description: "",
+  title: "MENTREK — Studio & Press Kit",
+  description: "Hyper-Glitch collaborative music from Nuan Sonar and Thysbe.",
 };
 
 export default function RootLayout({

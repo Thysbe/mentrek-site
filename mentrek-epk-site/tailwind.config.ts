@@ -11,6 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent: "var(--accent)",
+        muted: "var(--muted)",
+      },
+      fontFamily: {
+        typewriter: ["typewriter", "monospace"],
+        mono: ["var(--font-geist-mono)", "monospace"],
+      },
+      letterSpacing: {
+        widest2: "0.25em",
+        widest3: "0.35em",
       },
     },
   },
