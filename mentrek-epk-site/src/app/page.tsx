@@ -15,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <ArtBanner />
       <CollaboratorsSection />
+      <BookingSection />
       <SiteFooter />
     </div>
   );
@@ -281,6 +282,27 @@ const CollaboratorsSection = () => (
           </li>
         ))}
       </ul>
+    </div>
+  </section>
+);
+
+const BookingSection = () => (
+  <section className="py-12 px-8 border-t border-white/10">
+    <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+      <div>
+        <p className="section-label">Booking</p>
+        <h2 className="section-heading">Get in Touch</h2>
+        <div className="font-mono text-sm text-muted leading-relaxed max-w-md space-y-3">
+          <p>Based in Chicago. Open to DJ bookings locally and beyond.</p>
+          <p>Also available for AV performances — DJ sets with audio-reactive generative visuals.</p>
+        </div>
+      </div>
+      <a
+        href="mailto:mentrek.studio@gmail.com"
+        className="font-mono text-sm tracking-widest uppercase border-b border-muted pb-px text-foreground hover:border-foreground transition-colors duration-300 whitespace-nowrap"
+      >
+        mentrek.studio@gmail.com
+      </a>
     </div>
   </section>
 );
