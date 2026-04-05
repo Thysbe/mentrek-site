@@ -11,6 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-black">
       <HeroSection />
       <LatestReleaseSection />
+      <MixSection />
       <AboutSection />
       <ArtBanner />
       <CollaboratorsSection />
@@ -87,6 +88,53 @@ const LatestReleaseSection = () => (
           className="object-cover opacity-60"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
+      </div>
+    </div>
+  </section>
+);
+
+const MixSection = () => (
+  <section className="py-12 px-8 border-t border-white/10">
+    <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      {/* Art column */}
+      <div className="relative aspect-square overflow-hidden">
+        <Image
+          src="/art/helix1.png"
+          alt=""
+          fill
+          className="object-cover opacity-70"
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
+      </div>
+
+      {/* Embed column */}
+      <div>
+        <p className="section-label">Mix</p>
+        <h2 className="section-heading">Chapter 1</h2>
+        <iframe
+          width="100%"
+          height="166"
+          scrolling="no"
+          frameBorder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2132150937&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        />
+        <div style={{
+          fontSize: "10px",
+          color: "#666666",
+          lineBreak: "anywhere",
+          wordBreak: "normal",
+          overflow: "hidden",
+          whiteSpace: "nowrap",
+          textOverflow: "ellipsis",
+          fontFamily: "Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif",
+          fontWeight: 100,
+          marginTop: "4px",
+        }}>
+          <a href="https://soundcloud.com/mentrek_studio" title="Mentrek" target="_blank" rel="noopener noreferrer" style={{ color: "#666666", textDecoration: "none" }}>Mentrek</a>
+          {" · "}
+          <a href="https://soundcloud.com/mentrek_studio/chapter-1" title="Chapter 1" target="_blank" rel="noopener noreferrer" style={{ color: "#666666", textDecoration: "none" }}>Chapter 1</a>
+        </div>
       </div>
     </div>
   </section>
