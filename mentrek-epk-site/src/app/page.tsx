@@ -146,32 +146,20 @@ const NODE_FLOURISH_VIDEO_ID = "8SFPiNc1S5s";
 
 const NodeFlourishSection = () => (
   <section className="py-12 px-8 border-t border-white/10">
-    <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-start">
-      <div>
-        <p className="section-label">AV Performance</p>
-        <h2 className="section-heading">Node Flourish</h2>
-        <p className="font-mono text-sm leading-relaxed mb-6 text-muted">
-          Live AV set performed at Node Flourish — a fusion of real-time
-          visuals and hardware-driven electronics.
-        </p>
-        <div className="relative w-full overflow-hidden" style={{ paddingBottom: "56.25%" }}>
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src={`https://www.youtube.com/embed/${NODE_FLOURISH_VIDEO_ID}`}
-            title="Mentrek — Node Flourish AV Set"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
-      </div>
-
-      <div className="relative aspect-square overflow-hidden">
-        <Image
-          src="/art/helix2.png"
-          alt=""
-          fill
-          className="object-cover opacity-60"
-          sizes="(max-width: 768px) 100vw, 50vw"
+    <div className="max-w-5xl mx-auto">
+      <p className="section-label">AV Performance</p>
+      <h2 className="section-heading">Node Flourish</h2>
+      <p className="font-mono text-sm leading-relaxed mb-6 text-muted">
+        Live AV set performed at Node Flourish — a fusion of real-time
+        visuals and hardware-driven electronics.
+      </p>
+      <div className="relative w-full overflow-hidden" style={{ paddingBottom: "56.25%" }}>
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src={`https://www.youtube.com/embed/${NODE_FLOURISH_VIDEO_ID}`}
+          title="Mentrek — Node Flourish AV Set"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         />
       </div>
     </div>
