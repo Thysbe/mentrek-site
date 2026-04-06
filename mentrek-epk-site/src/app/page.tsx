@@ -149,10 +149,6 @@ const NodeFlourishSection = () => (
     <div className="max-w-5xl mx-auto">
       <p className="section-label">AV Performance</p>
       <h2 className="section-heading">Node Flourish</h2>
-      <p className="font-mono text-sm leading-relaxed mb-6 text-muted">
-        Live AV set performed at Node Flourish — a fusion of real-time
-        visuals and hardware-driven electronics.
-      </p>
       <div className="relative w-full overflow-hidden" style={{ paddingBottom: "56.25%" }}>
         <iframe
           className="absolute inset-0 w-full h-full"
