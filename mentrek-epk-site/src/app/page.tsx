@@ -293,8 +293,7 @@ const BookingSection = () => (
         <p className="section-label">Booking</p>
         <h2 className="section-heading">Get in Touch</h2>
         <div className="font-mono text-sm text-muted leading-relaxed max-w-md space-y-3">
-          <p>Based in Chicago. Open to DJ bookings locally and beyond.</p>
-          <p>Also available for AV performances — DJ sets with audio-reactive generative visuals.</p>
+          <p>Based in Chicago. Open to DJ bookings and AV performances locally and beyond.</p>
         </div>
       </div>
       <a
