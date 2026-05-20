@@ -72,7 +72,7 @@ const LatestReleaseSection = () => (
         <p className="section-label">Latest Release</p>
         <h2 className="section-heading">INIT</h2>
         <p className="font-mono text-sm leading-relaxed mb-6 text-muted">
-          The debut release from Mentrek — a collection of stripped-down,
+          The debut release from Mentrek: a collection of stripped-down,
           club-ready tracks forged from late-night studio sessions.
         </p>
         <iframe
